@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 15px;
 }
 .header-social-links a {
-  color: #6f6f6f;
+  color: #3a3a3a;
   padding-left: 6px;
   display: inline-block;
   line-height: 0px;
@@ -178,7 +178,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar li {
   position: relative;
-  padding: 10px 0 10px 28px;
+  padding: 10px 0 0 28px;
+  bottom: 5px;
 }
 .navbar a, .navbar a:focus {
   display: flex;
@@ -389,7 +390,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
 }
 #hero h2 {
-  color: #6f6f6f;
+  color: #ffffff;
+  text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
